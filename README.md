@@ -7,6 +7,7 @@ See [gasp-push-server](https://github.com/mqprichard/gasp-push-server) for an ex
 In this exmaple, we use the GCM API Key as the encryption key; the utiltity will output the AES Init Vector and Salt (both in base64 format), make a note of these as you will need them to decrypt the ciphertext.
 
 To run:
+
 1. copy your cert/key files (gasp-cert.pem and gasp-key.pem) to the project directory 
 
 2. do `mvn clean install`
